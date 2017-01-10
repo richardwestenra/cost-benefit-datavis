@@ -1,0 +1,30 @@
+{
+  "name": "cost-benefit-datavis",
+  "version": "0.0.1",
+  "description": "Crowd-sourced data-visualisation of the cost/benefit of various web-development technologies.",
+  "engines": {
+    "node": "6.7.0"
+  },
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "ejs": "^2.5.5",
+    "express": "^4.14.0",
+    "mongojs": "^2.4.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/richardwestenra/cost-benefit-datavis"
+  },
+  "keywords": [
+    "node",
+    "heroku",
+    "express",
+    "mongojs",
+    "datavis",
+    "front-end"
+  ],
+  "license": "MIT"
+}

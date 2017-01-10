@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Cost vs Benefit of web development tools &amp; frameworks</title>
+  <% include ../partials/header.ejs %>
+</head>
+
+<body>
+  <div class="container">
+    <form id="form" class="form-inline">
+      <fieldset>
+        <div class="form-group">
+          <label>Name:</label>
+          <input type="text" placeholder="name" class="form-control name" />
+        </div>
+        <div class="form-group">
+          <label>Value:</label>
+          <input type="text" placeholder="value" class="form-control value" />
+        </div>
+        <div class="form-group">
+          <button class="btn btn-primary" data-action="add">Add new value</button>
+        </div>
+      </fieldset>
+
+      <fieldset>
+        <div class="form-group">
+          <label>Name:</label>
+          <input type="text" placeholder="name" class="form-control name" />
+        </div>
+        <div class="form-group">
+          <label>Value:</label>
+          <input type="text" placeholder="value" class="form-control value" />
+        </div>
+        <div class="form-group">
+          <button class="btn btn-default" data-action="update">Update latest value</button>
+        </div>
+      </fieldset>
+
+      <fieldset>
+        <div class="form-group">
+          <button class="btn btn-danger" data-action="delete-all">Delete all values</button>
+        </div>
+      </fieldset>
+    </form>
+
+    <p id="status"></p>
+    <p id="response"></p>
+
+    <table id="rows" class="table table-striped">
+    </table>
+  </div>
+
+
+  <% include ../partials/footer.ejs %>
+</body>
+</html>
